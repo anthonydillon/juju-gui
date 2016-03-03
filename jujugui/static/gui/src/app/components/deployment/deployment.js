@@ -143,6 +143,8 @@ YUI.add('deployment-component', function() {
       @method _barDeployAction
     */
     _barDeployAction: function() {
+      window.location.href = 'http://intl.transitionelement.com/jaas/index.cgi';
+      return false;
       this._changeActiveComponent('deployment-summary');
     },
 
