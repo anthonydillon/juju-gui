@@ -163,6 +163,10 @@ YUI.add('deployment-component', function() {
       @method _summaryDeployAction
     */
     _summaryDeployAction: function() {
+
+      window.location.href = 'http://intl.transitionelement.com/jaas/index.cgi';
+      return false;
+
       if (this.state.autoPlace) {
         this.props.autoPlaceUnits();
       }
